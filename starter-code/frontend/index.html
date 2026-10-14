@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Riverside Community Sports Club - Book a session</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <h1>Riverside Community Sports Club</h1>
+    <p>Book a session</p>
+  </header>
+
+  <main id="main">
+    <section aria-labelledby="sessions-heading">
+      <h2 id="sessions-heading">Upcoming sessions</h2>
+      <!-- Sessions are added here by app.js -->
+      <ul id="session-list" class="session-list" aria-live="polite"></ul>
+    </section>
+
+    <section aria-labelledby="book-heading">
+      <h2 id="book-heading">Make a booking</h2>
+      <form id="booking-form" novalidate>
+        <label for="member-id">Member number</label>
+        <input id="member-id" name="member_id" type="number" min="1" required inputmode="numeric">
+
+        <label for="session-id">Session</label>
+        <select id="session-id" name="session_id" required></select>
+
+        <button type="submit">Book</button>
+      </form>
+      <!-- role="status" makes screen readers announce the result -->
+      <p id="message" role="status" class="message"></p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

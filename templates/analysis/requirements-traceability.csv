@@ -1,0 +1,3 @@
+requirement_id,requirement,type,priority,source_in_brief,kpi_or_acceptance_criterion,design_reference,test_ids,status
+FR1,Members can book a training session online,Functional,Must,"Brief para 2",UAC1: booking confirmed in under 3 steps,Wireframe W2; Algorithm A1,T001-T005,
+NFR1,Passwords stored hashed,Non-functional (security),Must,"Brief: 'secure'",100% hashed,Data dictionary users.password_hash,T020,

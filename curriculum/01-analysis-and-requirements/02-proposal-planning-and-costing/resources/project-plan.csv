@@ -1,0 +1,11 @@
+task_id,phase,task,subtask_of,milestone,start_date,duration_days,end_date,depends_on,resource,status
+1,Research,Research sector and existing solutions,,No,2027-03-01,2,=F2+G2-1,,Developer,
+2,Analysis,Write user stories and requirements,,No,=H2+1,2,=F3+G3-1,1,Developer,
+3,Analysis,Proposal signed off by client,,Yes,=H3+1,0,=F4,2,Client,
+4,Design,Wireframes and style guide,,No,=H4+1,2,=F5+G5-1,3,Developer,
+5,Design,ERD and data dictionary,,No,=H4+1,1,=F6+G6-1,3,Developer,
+6,Design,Algorithm designs and test strategy,,No,=H6+1,2,=F7+G7-1,5,Developer,
+7,Development,Database and back-end API,,No,=H7+1,4,=F8+G8-1,6,Developer,
+8,Development,Front end,,No,=H8+1,4,=F9+G9-1,"4,7",Developer,
+9,Testing,Integration and system testing,,No,=H9+1,2,=F10+G10-1,8,Tester,
+10,Deployment,Prototype ready for feedback,,Yes,=H10+1,0,=F11,9,Developer,

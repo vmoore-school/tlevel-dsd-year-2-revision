@@ -1,0 +1,17 @@
+law_or_regulation,what_it_covers,applies_to_brief_01_sports_club?,applies_to_brief_02_vets?,applies_to_brief_03_food_bank?,how_the_design_must_respond
+Data Protection Act 2018 / UK GDPR,Personal data processing; special category data (health); children's data,,,,"e.g. lawful basis, privacy notice, data minimisation, encryption, retention policy, subject access requests"
+PECR,Cookies and electronic marketing consent,,,,"e.g. cookie consent banner, opt-in for marketing emails"
+Computer Misuse Act 1990,Unauthorised access and modification,,,,
+Equality Act 2010,Discrimination; reasonable adjustments (including digital services),,,,"e.g. WCAG 2.2 AA"
+Copyright Designs and Patents Act 1988,Copyright in code and assets,,,,"e.g. assets log, licences"
+Patents Act 1977,Patented inventions,,,,
+Consumer Rights Act 2015,Digital content must be of satisfactory quality and as described,,,,
+Consumer Contracts Regulations 2013,Information and cancellation rights for online sales,,,,
+Online Safety Act 2023,User-to-user content; protecting children; age assurance,,,,
+Age ratings (PEGI / app store),Classifying content by age,,,,
+CAP Code (ASA),Advertising and marketing (including online and in-app),,,,
+Gambling Act 2005,Gambling and prize draws,,,,
+Employment law (e.g. Employment Rights Act 1996),Staff and employment practices,,,,
+Territorial restrictions,"Geo-blocking, international data transfers, export controls",,,,
+ISO/IEC/IEEE 90003:2018,Quality management for software,,,,
+W3C standards / WCAG,Web standards and accessibility,,,,

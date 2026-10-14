@@ -1,0 +1,11 @@
+item,category,quantity,unit,unit_cost_gbp,total_gbp,notes
+Junior developer,Staff,18,day,180,=C2*E2,Design + build + test
+UX/UI designer,Staff,3,day,250,=C3*E3,Wireframes and style guide
+Tester,Staff,3,day,200,=C4*E4,
+Project manager,Staff,2,day,300,=C5*E5,
+Cloud hosting (PaaS),Hosting,12,month,15,=C6*E6,First year
+Domain name,Hosting,1,year,12,=C7*E7,
+Email service (reminders),Service,12,month,10,=C8*E8,
+Payment gateway fees,Service,0.015,per £ taken,,,1.5% + 20p per transaction (estimate - check provider)
+Contingency,Risk,0.1,of subtotal,,=SUM(F2:F8)*C10,10% contingency
+TOTAL,,,,,=SUM(F2:F8)+F10,

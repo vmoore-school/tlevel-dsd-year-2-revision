@@ -1,0 +1,2 @@
+date,employer,on_site_hours,remote_hours,work_taster_hours,tasks,mentor_signed,running_total
+,,,,,,,=SUM(C$2:E2)

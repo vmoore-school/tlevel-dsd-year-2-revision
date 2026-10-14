@@ -1,0 +1,9 @@
+criterion,weight_1to5,Python_Flask_score_1to5,Python_Flask_weighted,PHP_Laravel_score_1to5,PHP_Laravel_weighted,CSharp_ASPNET_score_1to5,CSharp_ASPNET_weighted,justification_notes
+Suitability to the task,5,4,=B2*C2,4,=B2*E2,4,=B2*G2,
+Organisational policy,3,3,=B3*C3,3,=B3*E3,3,=B3*G3,
+Scalability,3,4,=B4*C4,3,=B4*E4,5,=B4*G4,
+Security,5,4,=B5*C5,4,=B5*E5,5,=B5*G5,
+Availability of trained staff,4,5,=B6*C6,3,=B6*E6,2,=B6*G6,
+Costs,4,5,=B7*C7,5,=B7*E7,3,=B7*G7,
+Reliability,4,4,=B8*C8,4,=B8*E8,5,=B8*G8,
+TOTAL,,,=SUM(D2:D8),,=SUM(F2:F8),,=SUM(H2:H8),Highest total = recommended. Justify in the proposal.

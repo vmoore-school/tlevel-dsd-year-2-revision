@@ -1,0 +1,13 @@
+factor_no,factor,meaning,starter_project_meets?,evidence,fix_needed
+1,Codebase,One codebase tracked in revision control; many deploys,,,
+2,Dependencies,Explicitly declare and isolate dependencies (requirements.txt + venv),,,
+3,Config,Store config in the environment (.env / env vars),,,
+4,Backing services,Treat databases and APIs as attached resources (swap by changing config),,,
+5,Build release run,Strictly separate build and run stages,,,
+6,Processes,Run the app as one or more stateless processes,,,
+7,Port binding,Export services via port binding,,,
+8,Concurrency,Scale out via the process model,,,
+9,Disposability,Fast start-up and graceful shutdown,,,
+10,Dev/prod parity,Keep development staging and production as similar as possible,,,
+11,Logs,Treat logs as event streams (write to stdout),,,
+12,Admin processes,Run admin/management tasks as one-off processes (e.g. a db init script),,,

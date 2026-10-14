@@ -1,0 +1,9 @@
+table,field,data_type,size,key,null_allowed,default,validation_rule,description,example
+member,member_id,INTEGER,,PK,No,AUTOINCREMENT,>0,Unique member number,1
+member,first_name,VARCHAR,50,,No,,Length 1-50; letters, hyphens and apostrophes,Member first name,Aisha
+member,email,VARCHAR,254,UNIQUE,No,,Valid email format,Login and contact email,aisha@example.com
+member,password_hash,VARCHAR,60,,No,,bcrypt hash,Hashed password (never plain text),$2b$12$...
+member,date_joined,DATE,,,No,CURRENT_DATE,Not in the future,Date membership started,2026-09-01
+booking,booking_id,INTEGER,,PK,No,AUTOINCREMENT,>0,Unique booking number,10
+booking,member_id,INTEGER,,FK -> member.member_id,No,,Must exist in member,Who booked,1
+booking,session_id,INTEGER,,FK -> session.session_id,No,,Must exist in session,Which session,3

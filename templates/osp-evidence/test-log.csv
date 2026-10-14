@@ -1,0 +1,6 @@
+test_id,date,component,description_of_test,test_type,test_data_type,test_data_used,prerequisites,expected_outcome,actual_outcome,pass_fail,comments_and_intended_actions,retest_id
+T001,,Booking form,Reject a booking with no name,Functional,Erroneous,"name=''",Form loaded,Error message 'Name is required' and booking not saved,,,,
+T002,,Booking form,Accept a booking for 1 person (minimum),Functional,Valid extreme,"people=1",Form loaded,Booking saved,,,,
+T003,,Booking form,Reject a booking for 0 people,Functional,Invalid extreme,"people=0",Form loaded,Error 'Must be between 1 and 20',,,,
+T004,,Booking form,Accept a typical booking,Functional,Valid,"people=4",Form loaded,Booking saved,,,,
+T005,,Booking form,Reject text in the number field,Functional,Invalid,"people='four'",Form loaded,Error 'Enter a whole number',,,,

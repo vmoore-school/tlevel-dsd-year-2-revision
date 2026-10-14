@@ -1,0 +1,41 @@
+response_id,timestamp,audience,role,device,ease_of_booking_1to5,booking_time,layout_clarity_1to5,completed_all_tasks,most_useful_feature,likelihood_to_use_0to10,improvement_suggestion,technical_comment
+R001,2027-04-14 16:14,Non-technical,Member,Mobile,3,<1 min,2,No,Online booking,5,Couldn't find the cancel button,
+R002,2027-04-15 08:51,Non-technical,Parent,Mobile,3,1-3 min,2,Yes,Coach view,4,Confusing error message when session full,
+R003,2027-04-16 01:38,Non-technical,Member,Mobile,3,<1 min,2,Yes,Session reminders,6,Login timed out,
+R004,2027-04-16 05:36,Non-technical,Coach,Mobile,4,>3 min,3,Yes,Session reminders,5,Works well on my phone,
+R005,2027-04-16 07:22,Technical,Developer,Mobile,4,<1 min,3,No,Dashboard,8,Clear layout,No tests for cancel endpoint
+R006,2027-04-17 07:24,Non-technical,Member,Desktop,3,<1 min,4,Yes,Dashboard,2,Text too small on mobile,
+R007,2027-04-14 15:58,Non-technical,Coach,Mobile,3,>3 min,2,Yes,Online booking,6,Couldn't find the cancel button,
+R008,2027-04-13 20:15,Non-technical,Parent,Desktop,3,>3 min,4,Yes,Dashboard,7,Login timed out,
+R009,2027-04-14 00:40,Non-technical,Parent,Desktop,4,1-3 min,3,Yes,Dashboard,6,Couldn't find the cancel button,
+R010,2027-04-20 01:07,Technical,Developer,Tablet,4,1-3 min,3,Yes,Session reminders,6,Booking was quick,Add CI badge and README setup steps
+R011,2027-04-20 12:11,Non-technical,Parent,Desktop,4,<1 min,3,Yes,Online booking,10,Confusing error message when session full,
+R012,2027-04-20 12:10,Non-technical,Parent,Mobile,3,1-3 min,3,Yes,Dashboard,4,Login timed out,
+R013,2027-04-14 22:03,Non-technical,Parent,Mobile,2,<1 min,2,No,Session reminders,7,Login timed out,
+R014,2027-04-19 09:30,Non-technical,Member,Mobile,2,<1 min,4,No,Dashboard,6,Text too small on mobile,
+R015,2027-04-16 08:28,Technical,Developer,Desktop,3,>3 min,4,Yes,Dashboard,5,Wanted dark mode,Add CI badge and README setup steps
+R016,2027-04-14 17:00,Non-technical,Parent,Tablet,3,<1 min,4,Yes,Dashboard,6,Confusing error message when session full,
+R017,2027-04-13 18:46,Non-technical,Member,Mobile,3,>3 min,5,No,Dashboard,5,Confusing error message when session full,
+R018,2027-04-17 08:55,Non-technical,Parent,Tablet,5,<1 min,4,No,Coach view,9,Dashboard slow to load,
+R019,2027-04-17 07:15,Non-technical,Member,Mobile,5,1-3 min,3,No,Dashboard,8,Clear layout,
+R020,2027-04-16 17:31,Technical,Developer,Tablet,5,<1 min,5,Yes,Online booking,4,Love the dashboard,No tests for cancel endpoint
+R021,2027-04-19 19:46,Non-technical,Club manager,Mobile,4,<1 min,2,No,Coach view,7,Easy to find my sessions,
+R022,2027-04-12 21:37,Non-technical,Parent,Tablet,5,>3 min,4,Yes,Online booking,8,Booking was quick,
+R023,2027-04-15 00:37,Non-technical,Club manager,Mobile,4,1-3 min,3,No,Online booking,6,Confusing error message when session full,
+R024,2027-04-19 12:45,Non-technical,Parent,Mobile,3,1-3 min,2,Yes,Session reminders,4,Text too small on mobile,
+R025,2027-04-13 03:34,Technical,Tester,Mobile,3,1-3 min,3,Yes,Online booking,8,Confusing error message when session full,Good separation of routes and DB code
+R026,2027-04-18 04:45,Non-technical,Member,Desktop,4,<1 min,4,Yes,Session reminders,8,Date picker hard to use with keyboard,
+R027,2027-04-18 06:09,Non-technical,Coach,Mobile,3,>3 min,2,No,Dashboard,5,Wanted dark mode,
+R028,2027-04-12 22:05,Non-technical,Coach,Desktop,5,<1 min,3,Yes,Session reminders,5,Clear layout,
+R029,2027-04-13 13:04,Non-technical,Club manager,Desktop,5,<1 min,4,Yes,Dashboard,7,Booking was quick,
+R030,2027-04-16 06:57,Technical,Developer,Mobile,2,<1 min,4,No,Dashboard,3,Couldn't find the cancel button,Uses parameterised queries - good
+R031,2027-04-14 02:51,Non-technical,Member,Desktop,4,<1 min,5,Yes,Coach view,10,Love the dashboard,
+R032,2027-04-19 20:06,Non-technical,Member,Tablet,4,<1 min,5,Yes,Dashboard,7,Date picker hard to use with keyboard,
+R033,2027-04-14 10:25,Non-technical,Club manager,Mobile,4,1-3 min,3,Yes,Session reminders,9,Wanted dark mode,
+R034,2027-04-18 02:21,Non-technical,Coach,Desktop,2,<1 min,5,No,Coach view,1,Wanted dark mode,
+R035,2027-04-18 20:32,Technical,Developer,Mobile,4,1-3 min,3,Yes,Online booking,8,Clear layout,Consider pagination on /api/sessions
+R036,2027-04-19 11:58,Non-technical,Member,Tablet,5,<1 min,4,Yes,Dashboard,6,Couldn't find the cancel button,
+R037,2027-04-16 20:42,Non-technical,Coach,Desktop,4,>3 min,4,Yes,Coach view,6,Love the dashboard,
+R038,2027-04-18 13:38,Non-technical,Club manager,Mobile,4,1-3 min,2,No,Session reminders,6,Date picker hard to use with keyboard,
+R039,2027-04-19 03:39,Non-technical,Coach,Tablet,3,1-3 min,4,Yes,Dashboard,4,Wanted dark mode,
+R040,2027-04-12 20:15,Technical,Tester,Mobile,3,1-3 min,4,Yes,Dashboard,2,Text too small on mobile,Good separation of routes and DB code

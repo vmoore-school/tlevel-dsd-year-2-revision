@@ -1,0 +1,67 @@
+{
+  "status": "ok",
+  "generated_at": "2027-04-12T09:30:00Z",
+  "page": 1,
+  "per_page": 3,
+  "total": 6,
+  "sessions": [
+    {
+      "session_id": 1,
+      "name": "Junior Football",
+      "sport": "Football",
+      "start": "2027-04-15T17:30:00",
+      "duration_minutes": 60,
+      "capacity": 20,
+      "booked": 14,
+      "coach": {
+        "coach_id": 2,
+        "name": "Sam Okafor"
+      },
+      "price_gbp": 5.0,
+      "tags": [
+        "under-12",
+        "outdoor"
+      ]
+    },
+    {
+      "session_id": 2,
+      "name": "Netball Training",
+      "sport": "Netball",
+      "start": "2027-04-15T19:00:00",
+      "duration_minutes": 90,
+      "capacity": 14,
+      "booked": 14,
+      "coach": {
+        "coach_id": 3,
+        "name": "Priya Shah"
+      },
+      "price_gbp": 5.0,
+      "tags": [
+        "adult",
+        "indoor"
+      ]
+    },
+    {
+      "session_id": 3,
+      "name": "Walking Football",
+      "sport": "Football",
+      "start": "2027-04-16T10:00:00",
+      "duration_minutes": 60,
+      "capacity": 16,
+      "booked": 7,
+      "coach": {
+        "coach_id": 2,
+        "name": "Sam Okafor"
+      },
+      "price_gbp": 3.0,
+      "tags": [
+        "over-50",
+        "outdoor"
+      ]
+    }
+  ],
+  "links": {
+    "next": "/api/sessions?page=2",
+    "prev": null
+  }
+}

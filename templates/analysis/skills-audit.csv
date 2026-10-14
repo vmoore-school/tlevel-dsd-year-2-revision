@@ -1,0 +1,7 @@
+skill_or_knowledge,needed_for,current_level_1to5,target_level,gap,training_method,resource,deadline,done
+HTML and CSS layout,Front end,,4,,Self-study,MDN Web Docs,,
+JavaScript fetch and async,Calling the API,,4,,Online course,,,
+Flask routing,Back end,,4,,Coaching from peer,,,
+SQL JOINs,Dashboard queries,,4,,Self-study,,,
+Git branching and pull requests,Version control,,3,,Learn on the job,,,
+pytest,Automated testing,,3,,Internet workshop,,,

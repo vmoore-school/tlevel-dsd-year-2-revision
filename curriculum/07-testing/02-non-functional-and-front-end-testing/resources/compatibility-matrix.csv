@@ -1,0 +1,7 @@
+test_id,page_or_feature,os,browser,browser_version,device,screen_width_px,renders_correctly,functions_correctly,load_time_s,lighthouse_performance,lighthouse_accessibility,issues_found,action
+C01,Home / session list,Windows 11,Edge,,Desktop,1920,,,,,,,
+C02,Home / session list,macOS,Safari,,Laptop,1440,,,,,,,
+C03,Home / session list,Android,Chrome,,Phone,360,,,,,,,
+C04,Home / session list,iOS,Safari,,Phone,390,,,,,,,
+C05,Booking form,Windows 11,Firefox,,Desktop,1920,,,,,,,
+C06,Booking form,Android,Chrome,,Tablet,768,,,,,,,

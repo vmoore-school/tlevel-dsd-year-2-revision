@@ -1,0 +1,4 @@
+id,as_a,i_want_to,so_that,acceptance_criteria,priority_moscow,story_points,epic,status
+US01,club member,book a training session online,I don't have to phone the club,"Given I am logged in, when I choose a session with free spaces and confirm, then I see a confirmation and receive an email",Must,3,Bookings,
+US02,coach,see who has booked my session,I can plan equipment,"Given I am a coach, when I open my session, then I see the list of booked members",Must,2,Bookings,
+US03,club manager,see monthly attendance on a dashboard,I can decide which sessions to keep,"Given I am a manager, when I open the dashboard, then I see attendance per session for the last 12 months",Should,5,Reporting,

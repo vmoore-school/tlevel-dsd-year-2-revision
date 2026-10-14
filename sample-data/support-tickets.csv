@@ -1,0 +1,13 @@
+ticket_id,date_opened,reported_by,channel,category,description,reporter_type,device,priority,status,likely_cause_hint
+TCK-1001,2027-04-30,User57,Email,Login,"I can't log in, it says my password is wrong but I just reset it",Non-technical,Windows / Edge,High,Open,User error or application error
+TCK-1002,2027-05-03,User63,In person,Front end,Booking page shows a blank white screen on my iPhone,Non-technical,iPhone / Safari,Medium,Open,Application error (compatibility)
+TCK-1003,2027-04-25,User91,In person,Bookings,Session shows 2 spaces left but I get 'Session full',Non-technical,Android / Chrome,High,Open,Application error
+TCK-1004,2027-04-26,User32,Web form,Dashboard,Dashboard takes over 10 seconds to load for the 12-month view,Technical,Mac / Firefox,Medium,Open,System error (performance)
+TCK-1005,2027-04-26,User85,Web form,Notifications,I got two confirmation emails for one booking,Non-technical,Windows / Edge,High,Open,Application error
+TCK-1006,2027-05-03,User21,Web form,API,API returns 500 when session_id is a string,Technical,Mac / Firefox,High,Open,Application error (validation)
+TCK-1007,2027-05-02,User69,In person,Account,Can I change my email address?,Non-technical,Windows / Edge,High,Open,Feature request
+TCK-1008,2027-04-27,User51,Phone,Bookings,Someone else's name appears on my booking,Non-technical,Mac / Firefox,High,Open,Application error
+TCK-1009,2027-04-23,User55,Web form,Accessibility,Screen reader doesn't announce error messages on the form,Technical,Windows / Edge,Medium,Open,Application error (accessibility)
+TCK-1010,2027-05-04,User86,Web form,Bookings,Cancelled booking still shows on coach list,Non-technical,iPhone / Safari,High,Open,Application error
+TCK-1011,2027-04-28,User34,Email,Login,Password reset link expired immediately,Non-technical,Android / Chrome,Low,Open,User error or application error
+TCK-1012,2027-04-26,User72,Phone,Front end,Prices show as 5.0 instead of £5.00,Non-technical,Mac / Firefox,Low,Open,Application error (compatibility)

@@ -1,0 +1,11 @@
+licence,type,can_use_commercially,must_credit_author,must_share_source_of_changes,can_combine_with_proprietary_code,patent_grant,typical_use,example_project
+MIT,Permissive,Yes,Yes (keep notice),No,Yes,No explicit grant,Libraries,
+Apache 2.0,Permissive,Yes,Yes (keep notice + NOTICE file),No,Yes,Yes,Libraries / frameworks,
+BSD 3-Clause,Permissive,Yes,Yes,No,Yes,No,Libraries,
+GPL v3,Strong copyleft,Yes,Yes,Yes - whole program if distributed,No (if distributed),Yes,Applications,
+LGPL v3,Weak copyleft,Yes,Yes,Yes - changes to the library only,Yes (dynamic linking),Yes,Libraries,
+AGPL v3,Network copyleft,Yes,Yes,Yes - even when only used over a network,No,Yes,Web services,
+Proprietary / EULA,Closed,Per licence,Per licence,N/A,N/A,Per licence,Commercial software,
+CC BY 4.0,Creative Commons (assets),Yes,Yes,No,Yes,N/A,"Images, text, audio",
+CC BY-NC 4.0,Creative Commons (assets),No,Yes,No,Yes (non-commercial),N/A,Assets,
+CC0,Public domain dedication,Yes,No,No,Yes,N/A,Assets / data,

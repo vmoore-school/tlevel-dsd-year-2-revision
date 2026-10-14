@@ -1,0 +1,34 @@
+# Continuous integration pipeline (lesson 06.08).
+# It runs on GitHub when this folder is the ROOT of its own repository.
+# (Copy starter-code/ into a new repo to use it.)
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Source code control - check out the code
+        uses: actions/checkout@v4
+
+      - name: Build - set up Python and install dependencies
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+
+      - name: Unit test automation
+        run: python -m pytest -v
+
+      - name: Security - static analysis and dependency audit
+        run: |
+          pip install bandit pip-audit
+          bandit -r backend -ll
+          pip-audit -r requirements.txt
+
+  # Deployment automation would go here (e.g. build and push the Docker image, then deploy).
+  # Monitoring happens after deployment (logs, uptime checks).

@@ -1,0 +1,11 @@
+feature,Agile,Scaled_Agile,Waterfall,RAD,Lean
+Structure,Iterative sprints,Iterative sprints across many teams + product increments,Sequential phases,Rapid prototype cycles,Short iteration cycles
+Requirements change?,Yes - continually,Yes - continually,No - fixed early,Yes - via prototypes,Yes - decisions made late
+Documentation,Light,Light but cohesive reporting,Heavy,Light,Minimal (waste reduction)
+Client involvement,High - sees each iteration,High - sees each increment,Low - mainly at start and end,High - feedback on prototypes,High
+Quality vs features,Quality first with limited features,Quality first; final iteration focuses on stability,Defined up front,Features first quality second,Fit for use over all features
+Cost / ROI,Cost-effective first product to market,Cost-effective at scale,High initial cost slow ROI,Fast for small-medium projects,Low waste suits limited resources
+If cancelled early,Some usable product,Some usable product,May have no usable product,Prototype exists,Some usable product
+Best for,Changing requirements; small-medium teams,Large organisations with many teams,Fixed regulated requirements,Small-medium projects; reuse of code,Small teams; limited resources
+Key terms,"sprint, epic, story, spike","+ product increment","phase, artefact, sign-off","prototype, reuse","waste, value stream"
+Suitable for mock brief 01? (your judgement),,,,,

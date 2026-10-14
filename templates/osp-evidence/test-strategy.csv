@@ -1,0 +1,10 @@
+order,component_to_be_tested,type_of_test,test_level,prerequisites_and_dependencies,manual_or_automated,tools,planned_date
+1,Database schema (tables and constraints),Unit,Unit,Schema script written,Automated,pytest + sqlite3,
+2,Back-end API: create booking endpoint,Unit,Unit,Database tables exist,Automated,pytest,
+3,Front-end booking form validation,Functional,Unit,HTML form built,Manual,Browser DevTools,
+4,Front end -> API -> database,Integration,Integration,Steps 1-3 pass,Automated,pytest + requests,
+5,Whole system smoke test after each build,Smoke,System,Deployed build,Automated,CI pipeline,
+6,Pages in Chrome / Firefox / Safari on desktop and mobile,Compatibility,System,System test passed,Manual,BrowserStack or real devices,
+7,50 concurrent users booking,Load,System,Deployed to test server,Automated,locust,
+8,Static code analysis and dependency audit,Security,System,Code complete,Automated,bandit + pip-audit,
+9,Client and users carry out key tasks,User acceptance,Acceptance,All above passed,Manual,Observation record,

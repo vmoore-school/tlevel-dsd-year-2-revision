@@ -1,0 +1,50 @@
+/* Mobile-first styles. Extend with your own style guide (templates/design/style-guide-template.md). */
+:root {
+  --colour-primary: #0b5d3b;
+  --colour-primary-dark: #073f28;
+  --colour-text: #1a1a1a;
+  --colour-bg: #ffffff;
+  --colour-surface: #f2f5f3;
+  --colour-error: #b00020;
+  --colour-success: #0b5d3b;
+  --space: 1rem;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--colour-text);
+  background: var(--colour-bg);
+}
+
+.skip-link { position: absolute; left: -999px; }
+.skip-link:focus { left: var(--space); top: var(--space); background: #fff; padding: .5rem; }
+
+.site-header { background: var(--colour-primary); color: #fff; padding: var(--space); }
+.site-header h1 { margin: 0; font-size: 1.5rem; }
+.site-header p { margin: 0; }
+
+main { padding: var(--space); max-width: 60rem; margin: 0 auto; display: grid; gap: 2rem; }
+
+.session-list { list-style: none; padding: 0; display: grid; gap: var(--space); }
+.session-card { background: var(--colour-surface); border-radius: .5rem; padding: var(--space); }
+.session-card h3 { margin: 0 0 .25rem; }
+.session-card.full { opacity: .7; }
+
+form { display: grid; gap: .5rem; max-width: 24rem; }
+input, select, button { font: inherit; padding: .6rem; border-radius: .25rem; border: 1px solid #767676; }
+button { background: var(--colour-primary); color: #fff; border: none; cursor: pointer; }
+button:hover { background: var(--colour-primary-dark); }
+:focus-visible { outline: 3px solid #ffbf47; outline-offset: 2px; }
+
+.message.error { color: var(--colour-error); font-weight: 600; }
+.message.success { color: var(--colour-success); font-weight: 600; }
+
+/* Tablet and up: two-column session grid */
+@media (min-width: 48rem) {
+  .session-list { grid-template-columns: repeat(2, 1fr); }
+}
